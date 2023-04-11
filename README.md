@@ -1,5 +1,5 @@
 # &ensp;&ensp;***First time? &ensp; :)***
-
+> ***Learning and having fun with command line on remote server [bandit.labs.overthewire.org](https://overthewire.org/wargames/bandit/ "Bandit Wargames")***
 <pre>
 
                 _                     _ _ _   
