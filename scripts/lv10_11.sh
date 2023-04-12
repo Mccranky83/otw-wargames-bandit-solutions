@@ -11,7 +11,7 @@ sshpass -p $(cat ../pwd/9_10) ssh bandit10@bandit.labs.overthewire.org -p 2220
 cat data.txt
 # VGhlIHBhc3N3b3JkIGlzIDZ6UGV6aUxkUjJSS05kTllGTmI2blZDS3pwaGxYSEJNCg==
 
-# Note that a base64 encoded file ends with the '=' character
+# Note that a base64 encoded file ends with '=='
 # base64 is an encoding scheme that encodes binary data into ASCII with each base 64 digit representing 6 bits of data, 'cus ya know, 2^6 = 64
 
 cat data.txt | base64 -d
