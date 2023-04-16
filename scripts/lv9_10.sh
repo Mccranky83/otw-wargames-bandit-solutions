@@ -9,6 +9,8 @@ END
 sshpass -p $(cat ../pwd/8_9) ssh bandit9@bandit.labs.overthewire.org -p 2220
 
 strings data.txt | grep '^=\+'
+# Actually on second thought, '^=\{2,\}' would be better than '^=\+'...
+
 : << 'END'
 =XeOh
 =vb`

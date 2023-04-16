@@ -34,6 +34,6 @@ ssh -i /tmp/mccranky/bandit17key.private bandit17@localhost -p 2220
 
 # Now we're logged in as bandit17
 
-cat bandit17
+cat /etc/bandit_pass/bandit17
 # VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
 
