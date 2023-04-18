@@ -14,7 +14,7 @@ for i in \* ./\*;
 "$i" != "." -a "$i" != ".."
 ```
 
-> We used `!=` instead of `-not -eq` because `-not -eq` is used for numeric comparisons in the test or `[` command, also called the "test bracket" command, to perform a numerical inequality test."
+> `-a` for 'and'
 
 ---
 

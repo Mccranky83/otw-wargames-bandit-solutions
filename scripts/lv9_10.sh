@@ -9,7 +9,10 @@ END
 sshpass -p $(cat ../pwd/8_9) ssh bandit9@bandit.labs.overthewire.org -p 2220
 
 strings data.txt | grep '^=\+'
-# Actually on second thought, '^=\{2,\}' would be better than '^=\+'...
+
+# Actually on second thought, '^=\{2,\}' would be better than '^=\+', since we were told that the password is preceded by, not just one, but SEVERAL ‘=’ characters.
+
+# '\+' is basically an abbreviation for '\{1,\}'
 
 : << 'END'
 =XeOh

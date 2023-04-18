@@ -50,5 +50,13 @@ END
 cat ./-file07
 # lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 
+
+# However, we can also run either of the two following commands:
+
+file ./*
+
+find . -maxdepth 1 -exec file {} \;
+
+# They should accomplish the same thing...
 exit
 

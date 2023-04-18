@@ -31,6 +31,7 @@ cp data.txt /tmp/mccranky83
 cd /tmp/mccranky83
 
 cat data.txt | xxd -r > hexdump
+# 'r' for 'reverse'
 # revert data.txt into a new file
 
 file hexdump
