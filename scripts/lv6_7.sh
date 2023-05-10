@@ -21,5 +21,9 @@ find / -user bandit7 -group bandit6 -size 33c 2> /dev/null
 cat /var/lib/dpkg/info/bandit7.password
 # z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 
+# One-line solution:
+
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null -exec cat {} \; | more
+
 exit
 
