@@ -21,5 +21,9 @@ find . -readable -size 1033c -not -executable
 cat ./inhere/maybehere07/.file2
 # P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 
+# Or display in one line:
+
+find . -readable -size 1033c -not -executable -exec cat {} \; | more
+
 exit
 
