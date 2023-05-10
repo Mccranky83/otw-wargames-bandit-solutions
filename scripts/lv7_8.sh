@@ -22,5 +22,7 @@ wc -l data.txt
 cat data.txt | grep "millionth"
 # millionth	TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 
+# Or run `grep "millionth" data.txt`
+
 exit
 
