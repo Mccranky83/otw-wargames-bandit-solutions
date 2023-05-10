@@ -57,6 +57,19 @@ file ./*
 
 find . -maxdepth 1 -exec file {} \;
 
-# They should accomplish the same thing...
+# They serve the same purpose of revealing the property of the documents in `inhere`
+
+# Or we can directly display the readable strings in all the files:
+
+strings ./*
+
+# .T26 
+# F8qqlY
+# =>KQ
+# ]o-p8q
+# cwk^
+# lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+# <U'=
+
 exit
 
